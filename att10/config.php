@@ -1,0 +1,5 @@
+<?php
+
+$sistema = "Sistema Escolar";
+
+?>
