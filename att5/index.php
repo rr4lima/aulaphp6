@@ -1,6 +1,3 @@
 <?php
-$host = "localhost";
-$user = "root";
-$senha = "";
-$banco = "escola";
+require "conexao.php";
 ?>
