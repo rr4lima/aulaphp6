@@ -1,14 +1,10 @@
 <?php
 
-require_once "config/config.php";
-require_once "funcoes/saudacao.php";
+include_once "pessoa.php";
 
-include "includes/menu.php";
+$pessoa = new pessoa('Rafaela', 17);
 
-echo "<h1>$sistema</h1>";
-
-mostrarSaudacao();
-
-include "includes/rodape.php";
+echo $pessoa -> nome;
+echo $pessoa -> idade; 
 
 ?>
